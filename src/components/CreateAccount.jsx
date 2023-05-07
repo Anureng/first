@@ -23,7 +23,7 @@ function CreateAccount() {
         <div className='space-y-2'>
           <input type="text "  onChange={(e)=>setName(e.target.value)} className="focus:outline-none bg-transparent "  placeholder='enter the name...' />
           <button disabled={!write} onClick={() => write?.()} className='bg-gray-600 px-2 py-1 rounded-xl text-white'>click</button>
-          <div>You need metamask and some sepolia eth to <br /> interact with this dapp</div>
+          <div>You need metamask and some polygon mumbai  to <br /> interact with this dapp</div>
         </div>
       </div>
     </div>
